@@ -1,0 +1,10 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@quados-tools':
+    specifier: link:/home/quadradical/Documents/Code/quados-tools/
+    version: link:../../Documents/Code/quados-tools
