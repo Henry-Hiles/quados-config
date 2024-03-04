@@ -6,5 +6,5 @@ settings:
 
 dependencies:
   '@quados/tools':
-    specifier: link:/home/quadradical/Documents/Code/quados-tools/
-    version: link:../../Documents/Code/quados-tools
+    specifier: link:/home/quadradical/Documents/Code/quados/tools/
+    version: link:../../Documents/Code/quados/tools

@@ -7,6 +7,6 @@
         "rebuild": "echo todo"
     },
     "dependencies": {
-        "@quados/tools": "link:/home/quadradical/Documents/Code/quados-tools/"
+        "@quados/tools": "link:/home/quadradical/Documents/Code/quados/tools/"
     }
 }
