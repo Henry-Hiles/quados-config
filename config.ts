@@ -1,5 +1,5 @@
-import Config from "@quados-tools/models/config.ts"
-import packages from "@quados-tools/flatpak-manager/packages.ts"
+import Config from "@quados/tools/models/config.ts"
+import packages from "@quados/tools/flatpak-manager/packages.ts"
 
 export default Config.create({
     installedPackages: [
