@@ -3,10 +3,8 @@
     "version": "1.0.0",
     "main": "config.ts",
     "type": "module",
-    "scripts": {
-        "rebuild": "echo todo"
-    },
     "dependencies": {
-        "@quados/tools": "link:/home/quadradical/Documents/Code/quados/tools/"
+        "@quados/tools": "link:/home/quadradical/Documents/Code/quados/tools/",
+        "tsx": "^4.7.1"
     }
 }
