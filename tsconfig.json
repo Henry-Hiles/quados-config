@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "quados": ["../../Documents/Code/quados/tools"]
+        }
+    }
+}

@@ -4,7 +4,7 @@
     "main": "config.ts",
     "type": "module",
     "dependencies": {
-        "@quados/tools": "link:/home/quadradical/Documents/Code/quados/tools/",
+        "quados": "link:/home/quadradical/Documents/Code/quados/tools/",
         "tsx": "^4.7.1"
     }
 }

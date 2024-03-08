@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@quados/tools':
+  quados:
     specifier: link:/home/quadradical/Documents/Code/quados/tools/
     version: link:../../Documents/Code/quados/tools
   tsx:

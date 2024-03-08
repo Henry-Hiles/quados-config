@@ -1,6 +1,6 @@
-import Config from "@quados/tools/models/config"
+import { createConfig } from "quados"
 import packages from "./packages"
 
-export default Config.create({
+createConfig({
     pkgs: [packages.warehouse],
 })
