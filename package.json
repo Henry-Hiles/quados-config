@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "main": "config.ts",
     "type": "module",
+    "scripts": {
+        "start": "tsx ."
+    },
     "dependencies": {
         "quados": "link:/home/quadradical/Documents/Code/quados/tools/",
         "tsx": "^4.7.1"

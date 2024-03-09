@@ -2,7 +2,7 @@
     "compilerOptions": {
         "baseUrl": "./",
         "paths": {
-            "quados": ["../../Documents/Code/quados/tools"]
+            "quados": ["/home/quadradical/Documents/Code/quados/tools"]
         }
     }
 }
