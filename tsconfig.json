@@ -3,10 +3,13 @@
         "baseUrl": ".",
         "paths": {
             "quados": [
-                "./node_modules/quados",
-                "/home/quadradical/Documents/Code/quados/tools"
+                "/home/quadradical/Documents/Code/quados/tools",
+                "./node_modules/quados"
             ],
-            "@quados/helpers": ["./node_modules/@quados/helpers"]
+            "@quados/helpers": [
+                "/home/quadradical/Documents/Code/quados/helpers",
+                "./node_modules/@quados/helpers"
+            ]
         }
     }
 }
