@@ -2,6 +2,10 @@
     "name": "quados-config",
     "version": "1.0.0",
     "type": "module",
+    "devDependencies": {
+        "@quados/helpers": "link:/home/quadradical/Documents/Code/quados/helpers/",
+        "quados": "link:/home/quadradical/Documents/Code/quados/tools/"
+    },
     "dependencies": {
         "@quados/helpers": "github:Quad-Linux/helpers",
         "quados": "github:Quad-Linux/tools",
