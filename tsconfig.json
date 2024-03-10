@@ -5,10 +5,6 @@
             "quados": [
                 "/home/quadradical/Documents/Code/quados/tools",
                 "./node_modules/quados"
-            ],
-            "@quados/helpers": [
-                "/home/quadradical/Documents/Code/quados/helpers",
-                "./node_modules/@quados/helpers"
             ]
         }
     }

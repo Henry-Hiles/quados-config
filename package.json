@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "type": "module",
     "dependencies": {
-        "@quados/helpers": "github:Quad-Linux/helpers",
         "quados": "github:Quad-Linux/tools",
         "tsx": "^4.7.1"
     }
