@@ -1,8 +1,9 @@
 {
     "compilerOptions": {
-        "baseUrl": "./",
+        "baseUrl": ".",
         "paths": {
-            "quados": ["/home/quadradical/Documents/Code/quados/tools"]
+            "quados": ["./node_modules/quados"],
+            "@quados/helpers": ["./node_modules/@quados/helpers"]
         }
     }
 }
