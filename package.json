@@ -1,9 +1,12 @@
 {
     "name": "quados-config",
     "version": "1.0.0",
+    "main": "config.ts",
     "type": "module",
     "dependencies": {
+        "@quados/helpers": "github:Quad-Linux/helpers",
+        "@quados/models": "github:Quad-Linux/models",
         "quados": "github:Quad-Linux/tools",
-        "tsx": "^4.7.1"
+        "esbuild": "^0.20.1"
     }
 }
