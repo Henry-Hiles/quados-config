@@ -13,10 +13,11 @@ export default createConfig({
                 },
             },
             symlinks: {
-                "test/test.json": {
+                "test.json": {
                     source: "config/test.json",
                 },
             },
         }),
+        pkgs.superTuxKart,
     ],
 })
