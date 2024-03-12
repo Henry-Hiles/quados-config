@@ -4,7 +4,6 @@
     "main": "config.ts",
     "type": "module",
     "dependencies": {
-        "@quados/helpers": "github:Quad-Linux/helpers",
         "@quados/models": "github:Quad-Linux/models",
         "quados": "github:Quad-Linux/tools",
         "esbuild": "^0.20.1"

@@ -5,18 +5,15 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@quados/helpers':
-    specifier: github:Quad-Linux/helpers
-    version: github.com/Quad-Linux/helpers/e07a91ed5e73756f02610c24fb6f1b6179936dbb
   '@quados/models':
     specifier: github:Quad-Linux/models
-    version: github.com/Quad-Linux/models/eae84f287ae4c4fcbfdab426bca6eca61eff13a3
+    version: github.com/Quad-Linux/models/b1874e544d243025ff6dcd626410942573c0f815
   esbuild:
     specifier: ^0.20.1
     version: 0.20.1
   quados:
     specifier: github:Quad-Linux/tools
-    version: github.com/Quad-Linux/tools/0d0049a95503e490df79d6ee1483bc4dc5f0a253
+    version: github.com/Quad-Linux/tools/7b5bad53ddd2c273eda0a70022fb5c4856f4b299
 
 packages:
 
@@ -227,8 +224,8 @@ packages:
     dev: false
     optional: true
 
-  /@types/node@20.11.25:
-    resolution: {integrity: sha512-TBHyJxk2b7HceLVGFcpAUjsa5zIdsPWlR6XHfyGzd0SFu+/NFgQgMAl96MSDZgQDvJAvV6BKsFOrt6zIL09JDw==}
+  /@types/node@20.11.26:
+    resolution: {integrity: sha512-YwOMmyhNnAWijOBQweOJnQPl068Oqd4K3OFbTc6AHJwzweUwwWG3GIFY74OKks2PJUDkQPeddOQES9mLn1CTEQ==}
     dependencies:
       undici-types: 5.26.5
     dev: false
@@ -386,33 +383,32 @@ packages:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
     dev: false
 
-  github.com/Quad-Linux/helpers/e07a91ed5e73756f02610c24fb6f1b6179936dbb:
-    resolution: {tarball: https://codeload.github.com/Quad-Linux/helpers/tar.gz/e07a91ed5e73756f02610c24fb6f1b6179936dbb}
+  github.com/Quad-Linux/helpers/e0e30e2dafb1a76e4078b1c299b8a639a705035c:
+    resolution: {tarball: https://codeload.github.com/Quad-Linux/helpers/tar.gz/e0e30e2dafb1a76e4078b1c299b8a639a705035c}
     name: '@quados/helpers'
     version: 1.0.0
     dependencies:
-      '@quados/models': github.com/Quad-Linux/models/eae84f287ae4c4fcbfdab426bca6eca61eff13a3
-      '@types/node': 20.11.25
+      '@quados/models': github.com/Quad-Linux/models/b1874e544d243025ff6dcd626410942573c0f815
       chalk: 5.3.0
       ora: 8.0.1
     dev: false
 
-  github.com/Quad-Linux/models/eae84f287ae4c4fcbfdab426bca6eca61eff13a3:
-    resolution: {tarball: https://codeload.github.com/Quad-Linux/models/tar.gz/eae84f287ae4c4fcbfdab426bca6eca61eff13a3}
+  github.com/Quad-Linux/models/b1874e544d243025ff6dcd626410942573c0f815:
+    resolution: {tarball: https://codeload.github.com/Quad-Linux/models/tar.gz/b1874e544d243025ff6dcd626410942573c0f815}
     name: '@quados/models'
     version: 1.0.0
     dependencies:
       dataclass: 2.1.1
     dev: false
 
-  github.com/Quad-Linux/tools/0d0049a95503e490df79d6ee1483bc4dc5f0a253:
-    resolution: {tarball: https://codeload.github.com/Quad-Linux/tools/tar.gz/0d0049a95503e490df79d6ee1483bc4dc5f0a253}
+  github.com/Quad-Linux/tools/7b5bad53ddd2c273eda0a70022fb5c4856f4b299:
+    resolution: {tarball: https://codeload.github.com/Quad-Linux/tools/tar.gz/7b5bad53ddd2c273eda0a70022fb5c4856f4b299}
     name: quados
     version: 1.0.0
     dependencies:
-      '@quados/helpers': github.com/Quad-Linux/helpers/e07a91ed5e73756f02610c24fb6f1b6179936dbb
-      '@quados/models': github.com/Quad-Linux/models/eae84f287ae4c4fcbfdab426bca6eca61eff13a3
-      '@types/node': 20.11.25
+      '@quados/helpers': github.com/Quad-Linux/helpers/e0e30e2dafb1a76e4078b1c299b8a639a705035c
+      '@quados/models': github.com/Quad-Linux/models/b1874e544d243025ff6dcd626410942573c0f815
+      '@types/node': 20.11.26
       chalk: 5.3.0
       dataclass: 2.1.1
     dev: false
