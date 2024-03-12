@@ -5,7 +5,7 @@
     "type": "module",
     "dependencies": {
         "@quados/models": "github:Quad-Linux/models",
-        "quados": "github:Quad-Linux/tools",
+        "quados": "link:~/Documents/Code/quados/tools",
         "esbuild": "^0.20.1"
     }
 }
