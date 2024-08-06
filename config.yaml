@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../.cache/schema.quad.json
+packages:
+  - warehouse
+  - 010Editor
